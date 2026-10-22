@@ -78,6 +78,9 @@
   <h3>Removing access</h3>
   <p>Click <b>Stop syncing in this browser</b> in Settings to disconnect. This also revokes the token. You can remove soroagent's access at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>, and delete its hidden data in Google Drive → Settings → Manage apps → soroagent → Delete hidden app data.</p>
 
+  <h3>Diagnostics</h3>
+  <p>To help fix problems, soroagent keeps a short log of its own errors (the last 50) in the browser's memory while it's open; it's cleared when the browser closes and is never synced or backed up. Web addresses, host names, page text, emails, keys and file paths are removed before anything is logged. Nothing is sent anywhere unless you choose Settings → Troubleshooting → <b>Copy diagnostic report</b>, which copies the report and opens a pre-filled issue on GitHub for you to read and submit yourself (GitHub's privacy policy then applies to what you post).</p>
+
   <h2>5. Files soroagent writes on your computer</h2>
   <ul>
     <li><b>Automatic backup:</b> by default, a backup of your library and settings (never your API keys) is kept in your Downloads folder under <code>soroagent/</code>, so you can restore it after a reinstall. You can turn this off in Settings.</li>
